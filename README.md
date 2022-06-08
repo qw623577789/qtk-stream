@@ -1,4 +1,4 @@
-YTK-Stream
+QTK-Stream
 ================
 增强JDK8的``Stream``,像Node.js数组``forEach``、``reduce``等函数那样,在遍历时可以获取**当前下标**、**长度**、**数组对象**
 
@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.qw623577789:ytk-stream:v1.0.0'
+    implementation 'com.github.qw623577789:qtk-stream:v1.0.0'
 }
 ```
 

@@ -1,4 +1,4 @@
-package team.ytk.stream;
+package team.qtk.stream;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -26,6 +26,6 @@ public class Stream {
         long length = list.size();
         return LongStream
             .range(0, length)
-            .mapToObj(index -> new Node<T>(index, list.get((int) index), length, list));
+            .mapToObj(index -> new Node<>(index, list.get((int) index), length, list));
     }
 }
